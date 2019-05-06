@@ -199,7 +199,7 @@ void MainGame::processInput()
 	{
 		switch (evnt.type)
 		{
-		case SDL_KEYDOWN: //Keyboard input
+		case SDL_KEYDOWN: //Keyboard input to change effect
 			if (evnt.key.keysym.sym == SDLK_d) {
 				switch1++;
 
