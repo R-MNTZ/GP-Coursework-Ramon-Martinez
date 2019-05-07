@@ -1,4 +1,6 @@
 #version 330 core
+//This isn't the 3rd shader specified for the coursework, this was kept in so the environment mapping shader
+// had something to reflect
 out vec4 FragColor;
 
 in vec3 TexCoords;

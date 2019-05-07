@@ -1,4 +1,6 @@
 #version 330 core
+//This isn't the 3rd shader specified for the coursework, this was kept in so the environment mapping shader
+// had something to reflect
 layout (location = 0) in vec3 aPos;
 
 out vec3 TexCoords;

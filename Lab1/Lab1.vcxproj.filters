@@ -76,12 +76,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\res\shader.frag">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\res\shader.vert">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="..\res\shaderGeoText.frag">
       <Filter>Resource Files</Filter>
     </None>
@@ -95,9 +89,6 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="..\res\shaderSkybox.vert">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\res\shaderSkybox.geom">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="..\res\shaderReflection.frag">

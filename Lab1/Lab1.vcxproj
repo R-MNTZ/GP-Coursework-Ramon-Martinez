@@ -95,8 +95,6 @@
     <ClInclude Include="transform.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\res\shader.frag" />
-    <None Include="..\res\shader.vert" />
     <None Include="..\res\shader3rd.frag" />
     <None Include="..\res\shader3rd.vert" />
     <None Include="..\res\shaderGeoText.frag" />
@@ -105,7 +103,6 @@
     <None Include="..\res\shaderReflection.frag" />
     <None Include="..\res\shaderReflection.vert" />
     <None Include="..\res\shaderSkybox.frag" />
-    <None Include="..\res\shaderSkybox.geom" />
     <None Include="..\res\shaderSkybox.vert" />
   </ItemGroup>
   <ItemGroup>

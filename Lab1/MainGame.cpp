@@ -298,7 +298,7 @@ void MainGame::drawGame()
 	setRef();
 	shaderRef.Update(transform, myCamera);
 	texture.Bind(0);
-	//mesh1.draw();
+	mesh1.draw();
 	mesh1.updateSphereData(*transform.GetPos(), 0.62f);
 	 
 	
@@ -312,7 +312,7 @@ void MainGame::drawGame()
 
 	shaderPass.Update(transform, myCamera);
 	texture2.Bind(0);
-	//mesh2.draw();
+	mesh2.draw();
 	mesh2.updateSphereData(*transform.GetPos(), 0.62f);
 	
 	lightPos = glm::vec3(0.0f , -sinf(counter) * 4.0, 0.0f);
